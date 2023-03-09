@@ -1,0 +1,66 @@
+.m_panel_title{
+    text-align: center;
+    color: #3a0b54;
+    margin-bottom: 7%;
+    line-height: 2;
+}
+.m_panel_title h2{
+    font-weight: normal;
+    color: #53117c;
+}
+.m_panel_buttons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.m_panel_buttons a{
+    text-decoration: none;
+    text-align: center;
+    padding: 20px 70px;
+    background-color: #c293ff;
+    text-transform: uppercase;
+    font-size: 26px;
+    color: white;
+    border-radius: 4px;
+}
+
+#b1:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    cursor: pointer;
+}
+#b2:hover{
+    transition: 0.2s;
+    font-weight: bold;
+    transform: scale(1.2); /* Увеличиваем масштаб */
+    cursor: pointer;
+}
+
+.texts{
+    display: flex;
+    justify-content: space-around;
+}
+.texts-div{
+    display: block;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-top: 2%;
+    width: 25%;
+    color: #53117c;
+    line-height: 3;
+    opacity: 0;
+}
+.show1{
+    animation: ani 1.5s forwards;
+}
+.show2{
+    animation: ani 1.5s forwards;
+}
+
+.creating-panel{
+    border-style: solid;
+    width: 70%;
+    position: absolute;
+    left: calc(50% - 70%/2);
+}
